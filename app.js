@@ -60,5 +60,6 @@ function hideAll() {
 function play(){
     document.getElementById("btn").style.display = "block";
     document.getElementById("play").style.display = "none";
-    window.open("game/SPS.html", "_blank");
+    window.open("https://mini-games-snowy.vercel.app/", "_blank");
 }
+
