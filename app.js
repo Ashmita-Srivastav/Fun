@@ -19,6 +19,7 @@ function showmessage3() {
     document.getElementById("messageBox3").style.display = "block";
     document.querySelector(".boy").src = "happy.gif";
     document.getElementById("restartBtn").style.display = "block";
+    document.getElementById("play").style.display = "block";
 }
 
 function loopNo() {
@@ -53,4 +54,11 @@ function hideAll() {
     document.getElementById("btn1").style.display = "none";
     document.getElementById("btn").style.display = "none";
     document.getElementById("goodloop").style.display = "none";
+    document.getElementById("play").style.display = "none";
+}
+
+function play(){
+    document.getElementById("btn").style.display = "block";
+    document.getElementById("play").style.display = "none";
+    window.open("game/SPS.html", "_blank");
 }
